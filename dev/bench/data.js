@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1664524509302,
+  "lastUpdate": 1664524510670,
   "repoUrl": "https://github.com/armin-ilg/FCCAnalyses",
   "entries": {
     "Benchmark": [
@@ -43,6 +43,43 @@ window.BENCHMARK_DATA = {
             "unit": "Seconds",
             "range": 10,
             "extra": "Analysis path: examples/FCCee/test"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "armin.fehr@lhep.unibe.ch",
+            "name": "Armin Fehr"
+          },
+          "committer": {
+            "email": "armin.fehr@lhep.unibe.ch",
+            "name": "Armin Fehr"
+          },
+          "distinct": true,
+          "id": "34dda34bd409ef12cef90bd9f2b0c187321dab5c",
+          "message": "Fixing merge",
+          "timestamp": "2022-09-30T09:44:15+02:00",
+          "tree_id": "5b97f0262af55a8fbe0f2c108f704ec1d7b43125",
+          "url": "https://github.com/armin-ilg/FCCAnalyses/commit/34dda34bd409ef12cef90bd9f2b0c187321dab5c"
+        },
+        "date": 1664524510282,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "prod | Events processed per second: examples/FCCee/higgs/mH-recoil/mumu",
+            "value": 8.411569397446987,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "prod | Events processed per second: examples/FCCee/flavour/Bc2TauNu",
+            "value": 5.297003523969584,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "prod | Events processed per second: examples/FCCee/test",
+            "value": 8.563479562013647,
+            "unit": "Evt/s"
           }
         ]
       }
