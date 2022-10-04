@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1664909172866,
+  "lastUpdate": 1664909175921,
   "repoUrl": "https://github.com/armin-ilg/FCCAnalyses",
   "entries": {
     "Benchmark": [
@@ -283,6 +283,43 @@ window.BENCHMARK_DATA = {
             "unit": "Seconds",
             "range": 10,
             "extra": "Analysis path: examples/FCCee/test"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "armin.fehr@lhep.unibe.ch",
+            "name": "Armin Fehr"
+          },
+          "committer": {
+            "email": "armin.fehr@lhep.unibe.ch",
+            "name": "Armin Fehr"
+          },
+          "distinct": true,
+          "id": "8787973852005ad1bd8ef0c4ebf6dfdabfcd7b17",
+          "message": "Updated validation_tkParam_adj.py to latest FCCAnalyses release",
+          "timestamp": "2022-10-04T20:31:28+02:00",
+          "tree_id": "897d9f03e286cdc72381704407a32e1362afdd89",
+          "url": "https://github.com/armin-ilg/FCCAnalyses/commit/8787973852005ad1bd8ef0c4ebf6dfdabfcd7b17"
+        },
+        "date": 1664909174629,
+        "tool": "customBiggerIsBetter",
+        "benches": [
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/higgs/mH-recoil/mumu",
+            "value": 5.617099074495321,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/flavour/Bc2TauNu",
+            "value": 4.271030065403936,
+            "unit": "Evt/s"
+          },
+          {
+            "name": "nightly | Events processed per second: examples/FCCee/test",
+            "value": 5.774829343374732,
+            "unit": "Evt/s"
           }
         ]
       }
