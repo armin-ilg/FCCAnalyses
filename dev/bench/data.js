@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1664909024920,
+  "lastUpdate": 1664909172866,
   "repoUrl": "https://github.com/armin-ilg/FCCAnalyses",
   "entries": {
     "Benchmark": [
@@ -240,6 +240,49 @@ window.BENCHMARK_DATA = {
             "name": "prod | Events processed per second: examples/FCCee/test",
             "value": 6.960196634369868,
             "unit": "Evt/s"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "armin.fehr@lhep.unibe.ch",
+            "name": "Armin Fehr"
+          },
+          "committer": {
+            "email": "armin.fehr@lhep.unibe.ch",
+            "name": "Armin Fehr"
+          },
+          "distinct": true,
+          "id": "8787973852005ad1bd8ef0c4ebf6dfdabfcd7b17",
+          "message": "Updated validation_tkParam_adj.py to latest FCCAnalyses release",
+          "timestamp": "2022-10-04T20:31:28+02:00",
+          "tree_id": "897d9f03e286cdc72381704407a32e1362afdd89",
+          "url": "https://github.com/armin-ilg/FCCAnalyses/commit/8787973852005ad1bd8ef0c4ebf6dfdabfcd7b17"
+        },
+        "date": 1664909170021,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "nightly | Time spent running the analysis: examples/FCCee/higgs/mH-recoil/mumu",
+            "value": 17.802783727645874,
+            "unit": "Seconds",
+            "range": 10,
+            "extra": "Analysis path: examples/FCCee/higgs/mH-recoil/mumu"
+          },
+          {
+            "name": "nightly | Time spent running the analysis: examples/FCCee/flavour/Bc2TauNu",
+            "value": 23.41355562210083,
+            "unit": "Seconds",
+            "range": 10,
+            "extra": "Analysis path: examples/FCCee/flavour/Bc2TauNu"
+          },
+          {
+            "name": "nightly | Time spent running the analysis: examples/FCCee/test",
+            "value": 17.316529035568237,
+            "unit": "Seconds",
+            "range": 10,
+            "extra": "Analysis path: examples/FCCee/test"
           }
         ]
       }
